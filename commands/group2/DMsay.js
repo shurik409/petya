@@ -6,17 +6,17 @@ module.exports = class DMsayCommand extends Command {
             name: 'кхе',
             group: 'group2',
             memberName: 'кхе',
-            description: 'Скажи боту попиздеть с тобой',
+            description: 'Скажи боту поговорить с тобой',
             examples: ['кхе @User Пересдача'],
             args: [
                 {
                     key: 'user',
-                    prompt: 'Кого бы послать?',
+                    prompt: 'Кого бы отправить?',
                     type: 'user'
                 },
                 {
                     key: 'content',
-                    prompt: 'Как будет послан этот нехороший человек?',
+                    prompt: 'Как будет отправлен этот нехороший человек?',
                     type: 'string'
                 }
             ]
