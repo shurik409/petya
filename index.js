@@ -42,7 +42,7 @@ robot.on('guildMemberAvailable', member => {
 
 client.on('message',(message) => {
 	if(message.content.toLowerCase().indexOf(name1.toLowerCase()) >= 0 && message.author != client.user){
-		message.channel.sendMessage('Петя лох!');
+		message.channel.sendMessage('Петя тут!');
 		console.log("Petya");
 	}
 	if(message.content.toLowerCase().indexOf(name2.toLowerCase()) >= 0 && message.author != client.user){
@@ -50,7 +50,7 @@ client.on('message',(message) => {
 		console.log("Tima");
 	}
 	if(message.content.toLowerCase().indexOf(name3.toLowerCase()) >= 0 && message.author != client.user){
-		message.channel.sendMessage('Ещё один пидор');
+		message.channel.sendMessage('Ещё один крутой парниша);
 		console.log("Sanya");
 	}
 	if(message.content.toLowerCase().indexOf(name4.toLowerCase()) >= 0 && message.author != client.user){
@@ -58,7 +58,7 @@ client.on('message',(message) => {
 		console.log("Toha");
 	}
 	if(message.content.toLowerCase().indexOf(name5.toLowerCase()) >= 0 && message.author != client.user){
-		message.channel.sendMessage('Ооо,сейчас в жопу долбиться будут');
+		message.channel.sendMessage('Ооо,ну начинается');
 		console.log("Dota");
 	}
 	
