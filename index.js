@@ -20,7 +20,7 @@ client.registry
 
 	client.on('ready', () => {
 		console.log('Logged in!');
-		client.user.setGame('Чья-то мамка');
+		client.user.setGame('Чья-то игра');
 	});
 	
 
@@ -67,7 +67,7 @@ client.on('message',(message) => {
 /*robot.on('guildMemberSpeaking',(member,speaking) => {
 	let guild = member.guild;
 	if(member.speaking){
-		console.log("ads");
+		console.log("adss");
 		guild.defaultChannel.sendMessage(`${member.user.username} сейчас балаболит в канале ${member.voiceChannel.name}`);
 	}
 });*/
