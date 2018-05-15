@@ -3,12 +3,12 @@ const { Command } = require('discord.js-commando');
 module.exports = class SayCommand extends Command {
     constructor(client){
         super(client,{
-            name: 'сбалаболь',
-            aliases: ['вякни','гав'],
+            name: 'скажи',
+            aliases: ['скажи','гав'],
             group: 'group2',
-            memberName: 'сбалаболь',
+            memberName: 'скажи',
             description: 'Replies with the text you provide.',
-            examples: ['say Тима петуч'],
+            examples: ['say Тима это тима'],
            /* throttling: {
                 usages: 1,
                 duration: 10
@@ -16,7 +16,7 @@ module.exports = class SayCommand extends Command {
             args: [
             {
                 key: 'text',
-                prompt: 'Можешь сказать боту послать кого-то',
+                prompt: 'Можешь сказать боту сделать что-то',
                 type: 'string'
             }
             ]
